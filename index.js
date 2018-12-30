@@ -4,9 +4,9 @@
 
 const http = require('http');
 const https = require('https');
-const config = require('./config');
-const log = require('./log')
-const unifiedServer = require('./server');
+const config = require('./lib/config');
+const log = require('./lib/log')
+const unifiedServer = require('./lib/server');
 
 const servers = config.servers;
 
